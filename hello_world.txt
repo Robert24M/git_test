@@ -1,1 +1,2 @@
 hello with echo
+hello from VS Code
