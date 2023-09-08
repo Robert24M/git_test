@@ -5,15 +5,28 @@
         <title>TODO list</title>
     </head>
     <body>
-        <ol>
+        <h1>To do today</h1>
+        <!-- Use reversed to reverse the order -->
+        <!-- Use start to specify the starting point eg. start="4" -->
+        <!-- Use type to specify the numbering type -->
+        <ol reversed start="8" type="I">
             <li>Learn</li>
             <li>Wash dishes</li>
-            <li>Sport</li>
-            <li>Go for a walk</li>
-            <li>PLay a little bit</li>
+            <li><strong>Sport</strong></li>
+            <!-- Use value to specify the value of the index. The nex element will continue to increment/decrement from there -->
+            <li value="17">Go for a walk</li>
+            <li>Play a little bit</li>
             <li>Read</li>
             <li>Relax</li>
         </ol>
+
+        <!-- dl is used for description list with dt- description title and dd- description data -->
+        <dl>
+            <dt>Lorem</dt>
+            <dd>Lorem, ipsum dolor.</dd>
+            <dt>Lorem, ipsum.</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto officia inventore eveniet.</dd>
+        </dl>
     </body>
 
 </html>
